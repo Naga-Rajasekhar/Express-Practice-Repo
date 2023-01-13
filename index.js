@@ -6,9 +6,9 @@ app.get("/", (req, res) => {
   res.send("Hello World, Raja");
 });
 
-app.get("/raja", (req, res)=>{
-    res.send("instagram");
-})
+app.get("/raja", (req, res) => {
+  res.send("instagram");
+});
 
 app.get("/features", (req, res) => {
   res.send("<h1>Test Runner Built for Humans</h1>");
